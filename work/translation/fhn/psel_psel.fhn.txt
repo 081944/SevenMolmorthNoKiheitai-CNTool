@@ -1,0 +1,21 @@
+# source=seven_data_link/takeshi/screen/psel/psel.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x1146 len=15 | 歳（隠居{B06}{Z}歳）|岁（隐居{B06}{Z}岁）
+[text:1] @0x119B len=4 | 元{B07}|原{B07}
+[text:2] @0x11F0 len=11 | 指導力{T}{Z}$.|指导力{T}{Z}$.
+[text:3] @0x1248 len=11 | 安定性{T}{Z}$/|稳定性{T}{Z}$/
+[text:4] @0x12A0 len=18 | 引率者回数{T}{Z}{S0}{Z}回|带队次数{T}{Z}{S0}{Z}回
+[text:5] @0x12F8 len=18 | 教育者回数{T}{Z}{S1}{Z}回|教育次数{T}{Z}{S1}{Z}回
+[text:6] @0x1350 len=12 | 修行者引率中|正在带队修行
+[text:7] @0x13A8 len=12 | 子供を教育中|正在教育孩童
+[text:8] @0x14B3 len=2 | 歳|岁
+[text:9] @0x1718 len=17 | 攻撃力{T}{Z}{B0E}{Z}{V0E}{B0F}|攻击力{T}{Z}{B0E}{Z}{V0E}{B0F}
+[text:10] @0x1770 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:11] @0x1820 len=13 | 防御補助{T}{Z}{B13}|防御辅助{T}{Z}{B13}
+[text:12] @0x1878 len=20 | 回復力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}|回复力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}
+[text:13] @0x18D0 len=8 | 修行年数|修行年数
+[text:14] @0x1980 len=18 | ～結果の出る能力～|～产生效果的能力～
+[text:15] @0x1AE3 len=18 | 上昇率{V10}{G01}～{G02}%|提升率{V10}{G01}～{G02}%
+[text:16] @0x1B3B len=13 | 上昇率{V10}{G01}%|提升率{V10}{G01}%

@@ -1,0 +1,17 @@
+# source=seven_data_link/takeshi/screen/info_ene/info_ene.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x1000 len=18 | 攻撃力{T}{Z}{B0E}{Z} {V10}{B0F}|攻击力{T}{Z}{B0E}{Z} {V10}{B0F}
+[text:1] @0x1058 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:2] @0x10B0 len=15 | 初回攻撃力{T}{Z}{B15}|初次攻击力{T}{Z}{B15}
+[text:3] @0x1108 len=18 | 初回防御力{T}{Z}{B14}{Z}{B13}|初次防御力{T}{Z}{B14}{Z}{B13}
+[text:4] @0x1160 len=11 | 回復力{T}{Z}{B11}|回复力{T}{Z}{B11}
+[text:5] @0x11B8 len=8 | 特殊攻撃|特殊攻击
+[text:6] @0x1370 len=4 | 思考|思考模式
+[text:7] @0x14D3 len=18 | 発生日　{G01}年{G02}日|发生日期　{G01}年{G02}日
+[text:8] @0x152B len=24 | 期限まで残り　{G03}年{G04}日|距期限还剩　{G03}年{G04}日
+[text:9] @0x1583 len=31 | （１年で貢献度は{H06}減ります。）|（每年贡献度会减少{H06}。）
+[text:10] @0x15DB len=8 | 発生場所|发生地点
+[text:11] @0x168B len=20 | 倒すと得られる貢献度|击败后获得的贡献度
+[text:12] @0x173B len=8 | 特記事項|特别事项

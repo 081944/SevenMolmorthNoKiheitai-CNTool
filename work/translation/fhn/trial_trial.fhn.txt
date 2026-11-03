@@ -1,0 +1,9 @@
+# source=seven_data_link/takeshi/screen/trial/trial.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0xD90 len=4 | １位|第1名
+[text:1] @0xDE8 len=4 | ２位|第2名
+[text:2] @0xE40 len=4 | ３位|第3名
+[text:3] @0x11B0 len=12 | 記録ベスト３|记录前三名
+[text:4] @0x1208 len=12 | 記録ベスト３|记录前三名

@@ -1,0 +1,24 @@
+# Keep the repository limited to the project documentation, tools, selected
+# work outputs, and the two root-level build scripts.
+*
+!/.gitignore
+!/README.md
+!/docs/
+!/docs/**
+!/tools/
+!/tools/**
+!/skills/
+!/skills/**
+!/work/
+!/work/imageedit/
+!/work/imageedit/**
+!/work/translation/
+!/work/translation/**
+!/build_translation.bat
+!/build_translation_with_images.bat
+/tools/__pycache__/**
+/tools/__pycache__
+
+# work/font/ is deliberately NOT whitelisted: fonts are licensed material and
+# must stay local.  Keep it that way (do not add "!work/font/**").
+work/font/

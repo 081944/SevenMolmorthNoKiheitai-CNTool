@@ -1,0 +1,21 @@
+# source=seven_data_link/takeshi/screen/common/common.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x7346 len=2 | 年|年
+[text:1] @0x5EB48 len=18 | 騎兵隊解散勧告まで|距离骑兵队解散建议还有
+[text:2] @0x5EBA3 len=9 | あと{G00}日|剩余{G00}日
+[text:3] @0x5EBF8 len=16 | 貢献度{T}{Z}-{H00}/年|贡献度{T}{Z}-{H00}/年
+[text:4] @0x5EC50 len=16 | 半年後予測{T}{Z}{G01}|半年后预测{T}{Z}{G01}
+[text:5] @0x5ECA8 len=16 | １年後予測{T}{Z}{G02}|1年后预测{T}{Z}{G02}
+[text:6] @0x6AE43 len=20 | 街壊滅まで{G00}年{G0E}日|距离城市毁灭还有{G00}年{G0E}日
+[text:7] @0x6AFA3 len=6 | 貢献度|贡献度
+[text:8] @0x6B053 len=4 | 解決|解决
+[text:9] @0x6B103 len=6 | 情報屋|情报商
+[text:10] @0x6B15B len=8 | 回復の泉|回复之泉
+[text:11] @0x6B1B3 len=12 | 放浪者出没中|流浪者出没中
+[text:12] @0x6B263 len=11 | 第{G03}回遠征|第{G03}次远征
+[text:13] @0x6B310 len=18 | 倒した魔物{T}{Z}{G07}匹|击败魔物{T}{Z}{G07}只
+[text:14] @0x6B368 len=16 | 城の仲間{T}{Z}{G08}人|城中同伴{T}{Z}{G08}人
+[text:15] @0x6B3C0 len=20 | 帰城時の貢献度{T}{Z}{H09}|返回城堡时的贡献度{T}{Z}{H09}
+[text:16] @0x6B41B len=6 | 貢献度|贡献度

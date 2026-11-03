@@ -1,0 +1,7 @@
+# source=seven_data_link/takeshi/screen/spring/spring.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x136 len=5 | →{G01}|→{G01}
+[text:1] @0x1E3 len=4 | 名前|名称
+[text:2] @0x23B len=6 | 疲労度|疲劳度

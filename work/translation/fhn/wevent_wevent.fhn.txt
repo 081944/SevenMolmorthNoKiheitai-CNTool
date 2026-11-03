@@ -1,0 +1,7 @@
+# source=seven_data_link/takeshi/screen/wevent/wevent.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x8EB len=14 | 残り{G00}年{G01}日|剩余{G00}年{G01}日
+[text:1] @0xA4B len=6 | 貢献度|贡献度
+[text:2] @0xBAB len=8 | 出現場所|出现地点

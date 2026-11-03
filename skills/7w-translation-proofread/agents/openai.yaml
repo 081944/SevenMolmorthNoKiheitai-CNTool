@@ -1,0 +1,3 @@
+interface:
+  display_name: "7W 中文校对与重译"
+  short_description: "校对 7W 汉化文本，统一术语并保护跨行结构与控制符"

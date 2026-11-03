@@ -1,0 +1,6 @@
+# source=seven_data_link/takeshi/screen/event/event.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x703 len=12 | 城内の出来事|城内事件
+[text:1] @0x75B len=8 | 戦闘結果|战斗结果

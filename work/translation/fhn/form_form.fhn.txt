@@ -1,0 +1,17 @@
+# source=seven_data_link/takeshi/screen/form/form.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x127B len=2 | 歳|岁
+[text:1] @0x1328 len=4 | ＨＰ|HP
+[text:2] @0x1380 len=6 | 攻撃力|攻击力
+[text:3] @0x13D8 len=6 | 素早さ|速度
+[text:4] @0x1430 len=6 | 回復力|回复力
+[text:5] @0x1488 len=8 | 防御補助|防御辅助
+[text:6] @0x14E0 len=8 | 攻撃補助|攻击辅助
+[text:7] @0x1538 len=8 | 間接攻撃|间接攻击
+[text:8] @0x224B len=4 | 　　|　　
+[text:9] @0x22A6 len=12 | 年間の修行中|正在修行
+[text:10] @0x22FB len=14 | あと{G01}年{G02}日|剩余{G01}年{G02}日
+[text:11] @0x2356 len=14 | 年間の修行終了|修行结束
+[text:12] @0x23AB len=10 | 城で待機中|在城中待命

@@ -1,0 +1,16 @@
+# opt.fhn 设置界面
+[text:0] off=0x638 len=14 | 画面位置の調整|画面位置调整
+[text:1] off=0x690 len=14 | ムービーの字幕|影片字幕
+[text:2] off=0x6E8 len=16 | 曲と効果音の音量|音乐与效果音音量
+[text:3] off=0x740 len=16 | システム音の音量|系统音音量
+[text:4] off=0x79B len=10 | 設定の終了|结束设置
+[text:5] off=0x7F3 len=14 | 初期状態に戻す|恢复初始状态
+[text:6] off=0x84B len=10 | キャンセル|取消
+[text:7] off=0x8A0 len=4 | なし|无
+[text:8] off=0x8F8 len=4 | あり|有
+[text:9] off=0xA58 len=14 | 画面位置の調整|画面位置调整
+[text:10] off=0xAB0 len=16 | 曲と効果音の音量|音乐与效果音音量
+[text:11] off=0xB08 len=16 | システム音の音量|系统音音量
+[text:12] off=0xB63 len=10 | 設定の終了|结束设置
+[text:13] off=0xBBB len=14 | 初期状態に戻す|恢复初始状态
+[text:14] off=0xC13 len=10 | キャンセル|取消

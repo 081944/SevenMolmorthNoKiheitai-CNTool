@@ -1,0 +1,8 @@
+# source=seven_data_link/takeshi/screen/prnk/prnk.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x593 len=11 | 最大{H00}部門|最大{H00}项目
+[text:1] @0x6F6 len=2 | 歳|岁
+[text:2] @0x853 len=11 | 最大{H00}部門|最大{H00}项目
+[text:3] @0x9B6 len=2 | 歳|岁

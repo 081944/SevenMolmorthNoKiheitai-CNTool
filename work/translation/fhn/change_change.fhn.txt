@@ -1,0 +1,19 @@
+# source=seven_data_link/takeshi/screen/change/change.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x1A13 len=2 | 歳|岁
+[text:1] @0x1C78 len=17 | 攻撃力{T}{Z}{B0E}{Z}{V0E}{B0F}|攻击力{T}{Z}{B0E}{Z}{V0E}{B0F}
+[text:2] @0x1CD0 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:3] @0x1D80 len=13 | 防御補助{T}{Z}{B13}|防御辅助{T}{Z}{B13}
+[text:4] @0x1DD8 len=20 | 回復力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}|回复力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}
+[text:5] @0x1E30 len=8 | 攻撃補助|攻击辅助
+[text:6] @0x1E88 len=8 | 間接攻撃|间接攻击
+[text:7] @0x1F93 len=2 | 歳|岁
+[text:8] @0x21F8 len=17 | 攻撃力{T}{Z}{B0E}{Z}{V0E}{B0F}|攻击力{T}{Z}{B0E}{Z}{V0E}{B0F}
+[text:9] @0x2250 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:10] @0x2300 len=13 | 防御補助{T}{Z}{B13}|防御辅助{T}{Z}{B13}
+[text:11] @0x2358 len=20 | 回復力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}|回复力{T}{Z}{B11}{Z}$W{C02}{V0E}{B12}
+[text:12] @0x23B0 len=8 | 攻撃補助|攻击辅助
+[text:13] @0x2408 len=8 | 間接攻撃|间接攻击
+[text:14] @0x26CB len=4 | 　　|　　

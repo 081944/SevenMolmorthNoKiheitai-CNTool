@@ -1,0 +1,19 @@
+# source=seven_data_link/takeshi/screen/cng_cnt/cng_cnt.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0xC4B len=2 | 歳|岁
+[text:1] @0xE58 len=17 | 攻撃力{T}{Z}{B0E}{Z}{V0E}{B0F}|攻击力{T}{Z}{B0E}{Z}{V0E}{B0F}
+[text:2] @0xEB0 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:3] @0xF60 len=13 | 防御補助{T}{Z}{B13}|防御辅助{T}{Z}{B13}
+[text:4] @0xFB8 len=20 | 回復力{T}{Z}{B11}{Z}{V0E}$W{C02}{B12}|回复力{T}{Z}{B11}{Z}{V0E}$W{C02}{B12}
+[text:5] @0x10C3 len=2 | 歳|岁
+[text:6] @0x1328 len=17 | 攻撃力{T}{Z}{B0E}{Z}{V0E}{B0F}|攻击力{T}{Z}{B0E}{Z}{V0E}{B0F}
+[text:7] @0x1380 len=11 | 素早さ{T}{Z}{B10}|速度{T}{Z}{B10}
+[text:8] @0x1430 len=13 | 防御補助{T}{Z}{B13}|防御辅助{T}{Z}{B13}
+[text:9] @0x1488 len=20 | 回復力{T}{Z}{B11}{Z}{V0E}$W{C02}{B12}|回复力{T}{Z}{B11}{Z}{V0E}$W{C02}{B12}
+[text:10] @0x1590 len=6 | 功労者|功臣
+[text:11] @0x15E8 len=10 | 指導力　$.|指导力　$.
+[text:12] @0x1640 len=10 | 安定性　$/|稳定性　$/
+[text:13] @0x1698 len=10 | 指導力　$.|指导力　$.
+[text:14] @0x16F0 len=10 | 安定性　$/|稳定性　$/

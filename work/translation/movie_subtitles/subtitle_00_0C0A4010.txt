@@ -1,0 +1,9 @@
+# source=unpak\MOVIMAGE.BIN
+# offset=0xC0A4010 length=0x7F0 key=0x1A
+# block_base=0xC0A4000
+# terminator_offset=0x63
+
+0049:0139|七勇士　莫尔莫斯骑兵队
+0161:0259|制作・著作　南梦宫株式会社
+0289:0356|朗读　野宫真贵
+#####

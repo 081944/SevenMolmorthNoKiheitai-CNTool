@@ -1,0 +1,5 @@
+# source=seven_data_link/takeshi/screen/flst/flst.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x536 len=41 | 家系のうち、{G01}家系と関係を持っています。|在家族中，与{G01}个家族有关系。

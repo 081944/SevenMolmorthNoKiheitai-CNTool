@@ -1,0 +1,12 @@
+# source=seven_data_link/takeshi/screen/croom/croom.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x536 len=15 | 歳（隠居{B06}{Z}歳）|岁（隐居{B06}{Z}歳）
+[text:1] @0x58B len=4 | 元{B07}|原{B07}
+[text:2] @0x5E0 len=11 | 指導力{T}{Z}$.|指导力{T}{Z}$.
+[text:3] @0x638 len=11 | 安定性{T}{Z}$/|稳定性{T}{Z}$/
+[text:4] @0x690 len=18 | 教育者回数{T}{Z}{S1}{Z}回|教育次数{T}{Z}{S1}{Z}回
+[text:5] @0x6E8 len=18 | 引率者回数{T}{Z}{S0}{Z}回|带队次数{T}{Z}{S0}{Z}回
+[text:6] @0x740 len=12 | 修行者引率中|正在带队修行
+[text:7] @0x798 len=12 | 子供を教育中|正在教育孩童

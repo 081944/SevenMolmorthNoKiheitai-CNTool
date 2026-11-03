@@ -1,0 +1,19 @@
+# mov.fhn 过场动画章节界面
+[text:0] off=0x238 len=22 | セブン・メインタイトル|Seven 主标题
+[text:1] off=0x290 len=18 | イントロダクション|引言
+[text:2] off=0x2E8 len=12 | 物語の始まり|故事的开始
+[text:3] off=0x340 len=18 | 謎の少女との出会い|与神秘少女相遇
+[text:4] off=0x398 len=10 | 不安な一夜|不安的一夜
+[text:5] off=0x3F0 len=8 | 魔法の石|魔法石
+[text:6] off=0x448 len=12 | 騎兵隊の初陣|骑兵队初战
+[text:7] off=0x4A0 len=10 | ヴィムの都|维姆王都
+[text:8] off=0x4F8 len=16 | 魔法の石の探索へ|踏上魔法石之旅
+[text:9] off=0x550 len=16 | 第四の石を求めて|寻求第四之石
+[text:10] off=0x5A8 len=10 | 伝説の陵墓|传说之陵墓
+[text:11] off=0x600 len=18 | 勇者の末裔を求めて|寻求勇者后裔
+[text:12] off=0x658 len=10 | 安息の日々|安息之日
+[text:13] off=0x6B0 len=10 | 封印の儀式|封印仪式
+[text:14] off=0x708 len=8 | 魔の山へ|前往魔山
+[text:15] off=0x760 len=12 | 魔の城の崩壊|魔城的崩坏
+[text:16] off=0x7B8 len=14 | スタッフロール|制作人员
+[text:17] off=0x810 len=18 | そして新たな物語へ|然后迈向新故事

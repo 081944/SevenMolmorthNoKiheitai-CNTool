@@ -1,0 +1,9 @@
+# source=seven_data_link/takeshi/screen/wsel/wsel.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x4EB len=14 | 個人記録各部門|个人记录各项目
+[text:1] @0x543 len=22 | 最大取得貢献度ベスト３|获得贡献度最多前三名
+[text:2] @0x59B len=24 | 最大ダメージ部門ベスト３|最大伤害项目前三名
+[text:3] @0x5F3 len=24 | 最短勝利時間部門ベスト３|最短胜利时间项目前三名
+[text:4] @0x64B len=4 | 戻る|返回

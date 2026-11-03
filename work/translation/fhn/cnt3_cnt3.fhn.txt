@@ -1,0 +1,7 @@
+# source=seven_data_link/takeshi/screen/cnt3/cnt3.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x65B len=2 | 位|位
+[text:1] @0x868 len=12 | 倒した敵の数|击败敌人数
+[text:2] @0xA20 len=16 | 倒した放浪者の数|击败流浪人数

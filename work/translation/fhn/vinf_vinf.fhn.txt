@@ -1,0 +1,7 @@
+# source=seven_data_link/takeshi/screen/vinf/vinf.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x593 len=6 | 評価$?|评价$?
+[text:1] @0x643 len=18 | 創設から{G01}年{G02}日|创建至今{G01}年{G02}日
+[text:2] @0x748 len=12 | 騎兵隊の強さ|骑兵队实力

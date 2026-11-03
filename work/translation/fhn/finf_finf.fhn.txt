@@ -1,0 +1,7 @@
+# source=seven_data_link/takeshi/screen/finf/finf.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0xE93 len=46 | 家系内（全{G00}人）で今までに関わった{G01}人の構成|家族中曾经关联过的{G01}人（全{G00}人）的构成
+[text:1] @0xEE8 len=24 | 家系内の主な強者ベスト３|家族中主要强者前三名
+[text:2] @0x1048 len=4 | 家宝|家宝

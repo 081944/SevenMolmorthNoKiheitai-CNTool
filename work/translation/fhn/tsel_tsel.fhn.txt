@@ -1,0 +1,10 @@
+# source=seven_data_link/takeshi/screen/tsel/tsel.fhn field_size=0x40 record_tail=0x18
+# Format: [text:n] @0xOFFSET len=BYTES | original|translation
+# Inline commands use tokens such as {G01}, {H06}, {B06}, {T}, {S5};
+# {Z} represents an embedded NUL separator and must be preserved.
+[text:0] @0x49B len=2 | 歳|岁
+[text:1] @0x548 len=4 | 元{B07}|原{B07}
+[text:2] @0x6AB len=2 | 歳|岁
+[text:3] @0x758 len=4 | 元{B07}|原{B07}
+[text:4] @0x863 len=10 | 修行引率中|正在带队修行
+[text:5] @0x8BB len=12 | 子供を教育中|正在教育孩童
