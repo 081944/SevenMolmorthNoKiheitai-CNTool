@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "edit_root": "E:\\HH\\SevenMolmorthNoKiheitai-CNTool\\work\\imageedit",
+  "unpacked": "E:\\HH\\SevenMolmorthNoKiheitai-CNTool\\unpacked\\CDIMAGE_FULL",
+  "entries": {
+    "gim/seven_data_link/takayama/tex/endlessmonsgim.arc__gim2.png": {
+      "peak": 128,
+      "original_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "target_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "preview_sha256": "f2bd2a263b9a9a864400788d1ac9b7fdf581a2ee224aeef99b976e1055e2803f",
+      "src_rel": "seven_data_link/takayama/tex/endlessmonsgim.arc",
+      "offset": 107536,
+      "resource_sha256": "1e0d73f5e511c7d259fd05eeac9a201e5d7f652a02322f6fad087d2ad64b42e7",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/endlessmonsgim.arc__gim4.png": {
+      "peak": 128,
+      "original_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "target_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "preview_sha256": "83217d0054a5a12d684cad22e925961a1c616ddf9e069cf5fd6f8e0a2e12ca90",
+      "src_rel": "seven_data_link/takayama/tex/endlessmonsgim.arc",
+      "offset": 346016,
+      "resource_sha256": "5a3d4769dfd7b24b7f6c4d039ac5f13048016881a78b3f1f3aff745efd6352ed",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/rpgbtlgim.arc__gim2.png": {
+      "peak": 128,
+      "original_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "target_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "preview_sha256": "f2bd2a263b9a9a864400788d1ac9b7fdf581a2ee224aeef99b976e1055e2803f",
+      "src_rel": "seven_data_link/takayama/tex/rpgbtlgim.arc",
+      "offset": 107536,
+      "resource_sha256": "476c2667e170ab04fc8f448112814402f2abce4d0aa5675090cfd72410cd97dc",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/rpgbtlgim.arc__gim4.png": {
+      "peak": 128,
+      "original_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "target_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "preview_sha256": "83217d0054a5a12d684cad22e925961a1c616ddf9e069cf5fd6f8e0a2e12ca90",
+      "src_rel": "seven_data_link/takayama/tex/rpgbtlgim.arc",
+      "offset": 346016,
+      "resource_sha256": "d15efba5b7b67b89acb40635dd498caf66ce78730b8979fcf59e3c4e3e122414",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/rpgbtlgim.arc__gim7.png": {
+      "peak": 128,
+      "original_sha256": "595726cfbe78ba91b1d4be8b89463e194d7fdeae66b723b3f226cdabe77667e8",
+      "target_sha256": "595726cfbe78ba91b1d4be8b89463e194d7fdeae66b723b3f226cdabe77667e8",
+      "preview_sha256": "d8d4a60b7a36747794e43bdf70c4526e50a513b6ad69ad2b2f2f7c2b37801ea0",
+      "src_rel": "seven_data_link/takayama/tex/rpgbtlgim.arc",
+      "offset": 483840,
+      "resource_sha256": "a098291c6578d2f94cdd8fc7e97f47521a330857b96f75a83faa384dea349196",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/tozokubtlgim.arc__gim2.png": {
+      "peak": 128,
+      "original_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "target_sha256": "ad5fe18887caf614ac3d205c39a9a8c57d0624645d7f961f5f5c732d427bb025",
+      "preview_sha256": "f2bd2a263b9a9a864400788d1ac9b7fdf581a2ee224aeef99b976e1055e2803f",
+      "src_rel": "seven_data_link/takayama/tex/tozokubtlgim.arc",
+      "offset": 107536,
+      "resource_sha256": "3bef800b1780038d96aa9144813b4501b598d74c7b3ce676aa64b766c620df81",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/tozokubtlgim.arc__gim4.png": {
+      "peak": 128,
+      "original_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "target_sha256": "2948c640bdb6483ada34c17219f5eef7832ea636286d041243a4c1f2b612a046",
+      "preview_sha256": "83217d0054a5a12d684cad22e925961a1c616ddf9e069cf5fd6f8e0a2e12ca90",
+      "src_rel": "seven_data_link/takayama/tex/tozokubtlgim.arc",
+      "offset": 346016,
+      "resource_sha256": "bfaccc358753244b56ac865b2f1ade9a18c5c63ab425c576ce0606e9d2f13100",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/tozokubtlgim.arc__gim7.png": {
+      "peak": 128,
+      "original_sha256": "7f4923fe1ba245c02cf6028dc49d2ca588ada05366d2b95ea018aeb84da09f03",
+      "target_sha256": "7f4923fe1ba245c02cf6028dc49d2ca588ada05366d2b95ea018aeb84da09f03",
+      "preview_sha256": "4184ad42fbe0e7249f2fc12169cec18c74e57c35a6bae8827f8ec7fd363e5b21",
+      "src_rel": "seven_data_link/takayama/tex/tozokubtlgim.arc",
+      "offset": 483840,
+      "resource_sha256": "85ec86a5c7d7cad33f37702e56baceaf7b3b8f5bbacd3d2a470ea7e8c900b650",
+      "inplace": true
+    },
+    "gim/seven_data_link/takayama/tex/endlessmonsgim.arc__gim7.png": {
+      "peak": 128,
+      "original_sha256": "441b97e32a20ab9ca8d727b7577710120234d7c55011a48b6e1e04c86a9db17f",
+      "target_sha256": "441b97e32a20ab9ca8d727b7577710120234d7c55011a48b6e1e04c86a9db17f",
+      "preview_sha256": "a1177211bcb20a2ae0dc61a432bb2bb4cba0e386df74fff218841b562b75a1e0",
+      "src_rel": "seven_data_link/takayama/tex/endlessmonsgim.arc",
+      "offset": 483840,
+      "resource_sha256": "e72eca140bdc2d36ec516fd17b553a77932ea2ef7135687dd94f58a82c2a6afb",
+      "inplace": true
+    }
+  }
+}

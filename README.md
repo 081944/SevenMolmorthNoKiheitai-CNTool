@@ -18,6 +18,11 @@ build_translation.bat
 需要连改图一起回写时用 `build_translation_with_images.bat`，它额外要求
 `work\imageedit\manifest.csv` 与改好的 PNG。
 
+GIM 图片太透明、不便改字时，可以用 `python tools\image_alpha_7w.py prepare`
+将待改 PNG 转为清晰编辑形式。之后直接编辑 `work/imageedit/` 下的原路径 PNG，
+照常运行带图片构建脚本，反写程序会自动恢复透明度，不需要手动执行 `apply`。
+操作方法见 [GIM 透明图片编辑流程](docs/GIM透明图片编辑流程.md)。
+
 ## 流程
 
 ```text

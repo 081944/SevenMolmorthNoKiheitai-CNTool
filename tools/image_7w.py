@@ -505,7 +505,8 @@ def _gim_rebuild(unpacked: Path, src_rel: str, offset: int, png: Path,
     resource = bytes(data[offset:])
     if not gim_7w.is_gim(resource):
         raise ValueError(f"no GIM magic at 0x{offset:x} in {src_rel}")
-    img = Image.open(png).convert("RGBA")
+    import image_alpha_7w
+    img = image_alpha_7w.load_for_writeback(png, resource)
     rebuilt = gim_7w.rebuild(resource, img)
     if len(rebuilt) != len(resource):
         raise ValueError(
